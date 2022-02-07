@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,600&family=Montserrat+Alternates:ital,wght@0,300;1,400&display=swap');
+
+.App{
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  background: #3A1C71;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+}
+.App h1{
+  color: #fff;
+  padding-top: 20px;
+}
+
+.App h2{
+  color: #fff;
+}
+
+.input-add input{
+  border: none;
+  padding: 10px 6px;
+  width: 10rem;
+  border-radius: 5px;
+}
+
+.input-add button{
+  border: none;
+  border-radius: 6px;
+  margin-left: 5px;
+  width: 3rem;
+  padding: 8px 5px;
+  background-color: #63449e;
+  color: #fff;
+}
+
+.list{
+  background: #fff;
+  width: 200px;
+  min-height:100px;
+  text-align: center;
+  justify-content: center;
+}
